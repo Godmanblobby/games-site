@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Browser Games</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Browser Games</h1>
+    <p>Select a game from the list</p>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search games..."
+        aria-label="Search games"
+      />
+      <div id="gamesList" class="games-list"></div>
+    </aside>
+
+    <section class="viewer">
+      <div class="viewer-topbar">
+        <h2 id="gameTitle">No game selected</h2>
+        <button id="fullscreenBtn" type="button">Fullscreen</button>
+      </div>
+
+      <div class="iframe-wrap">
+        <iframe
+          id="gameFrame"
+          title="Game Player"
+          src=""
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
