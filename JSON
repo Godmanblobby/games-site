@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Example Game 1",
+    "url": "https://example.com/embed/game1"
+  },
+  {
+    "name": "Example Game 2",
+    "url": "https://example.com/embed/game2"
+  },
+  {
+    "name": "Example Game 3",
+    "url": "https://example.com/embed/game3"
+  }
+]
