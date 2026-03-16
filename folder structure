@@ -1,0 +1,6 @@
+unblocked-games/
+│
+├── index.html
+├── style.css
+├── script.js
+└── games.json
